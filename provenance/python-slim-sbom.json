@@ -1,0 +1,1924 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "name": "trivy",
+        "vendor": "aquasecurity",
+        "version": "unknown"
+      }
+    ],
+    "component": {
+      "name": "python",
+      "purl": "pkg:oci/python@slim?digest=sha256:f41a75c9cee9391c09e0139f7b49d4b1fbb119944ec740ecce4040626dc07bed",
+      "type": "library",
+      "bom-ref": "pkg:oci/python@slim?digest=sha256:f41a75c9cee9391c09e0139f7b49d4b1fbb119944ec740ecce4040626dc07bed",
+      "version": "slim"
+    },
+    "timestamp": "2024-12-20T12:21:22.824921+00:00"
+  },
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "621dc532-04fb-4954-b273-ad7ea902010e",
+      "type": "library",
+      "bom-ref": "BomRef.715744229074145.37107589895473436",
+      "version": "unknown"
+    },
+    {
+      "name": "adduser",
+      "type": "library",
+      "bom-ref": "BomRef.4282568904542824.8317119033134258",
+      "version": "3.134"
+    },
+    {
+      "name": "apt",
+      "type": "library",
+      "bom-ref": "BomRef.28865329029004394.5893159289139973",
+      "version": "2.6.1"
+    },
+    {
+      "name": "base-files",
+      "type": "library",
+      "bom-ref": "BomRef.00929546732273423.47067917294422723",
+      "version": "12.4+deb12u8"
+    },
+    {
+      "name": "base-passwd",
+      "type": "library",
+      "bom-ref": "BomRef.03348382126786409.9912791416342875",
+      "version": "3.6.1"
+    },
+    {
+      "name": "bash",
+      "type": "library",
+      "bom-ref": "BomRef.892768513126765.7967673721135938",
+      "version": "5.2.15-2+b7"
+    },
+    {
+      "name": "bsdutils",
+      "type": "library",
+      "bom-ref": "BomRef.2005468020465031.7367529303291531",
+      "version": "1:2.38.1-5+deb12u2"
+    },
+    {
+      "name": "ca-certificates",
+      "type": "library",
+      "bom-ref": "BomRef.5238204111956344.8594181125851695",
+      "version": "20230311"
+    },
+    {
+      "name": "coreutils",
+      "type": "library",
+      "bom-ref": "BomRef.4887258036841672.15787530973793895",
+      "version": "9.1-1"
+    },
+    {
+      "name": "dash",
+      "type": "library",
+      "bom-ref": "BomRef.5609914282001899.7988182545060057",
+      "version": "0.5.12-2"
+    },
+    {
+      "name": "debconf",
+      "type": "library",
+      "bom-ref": "BomRef.028994245660979745.7437329157670484",
+      "version": "1.5.82"
+    },
+    {
+      "name": "debian",
+      "type": "library",
+      "bom-ref": "BomRef.5043988800760324.054715112016471834",
+      "version": "12.8"
+    },
+    {
+      "name": "debian-archive-keyring",
+      "type": "library",
+      "bom-ref": "BomRef.04021578228696321.4981307789283477",
+      "version": "2023.3+deb12u1"
+    },
+    {
+      "name": "debianutils",
+      "type": "library",
+      "bom-ref": "BomRef.5592413176033004.05854638705800996",
+      "version": "5.7-0.5~deb12u1"
+    },
+    {
+      "name": "diffutils",
+      "type": "library",
+      "bom-ref": "BomRef.5822222196739071.5802816471596205",
+      "version": "1:3.8-4"
+    },
+    {
+      "name": "dpkg",
+      "type": "library",
+      "bom-ref": "BomRef.3087890454518959.1606103329910321",
+      "version": "1.21.22"
+    },
+    {
+      "name": "e2fsprogs",
+      "type": "library",
+      "bom-ref": "BomRef.019860963676747723.6138039461511284",
+      "version": "1.47.0-2"
+    },
+    {
+      "name": "findutils",
+      "type": "library",
+      "bom-ref": "BomRef.6743344935214602.9241122009132855",
+      "version": "4.9.0-4"
+    },
+    {
+      "name": "gcc-12-base",
+      "type": "library",
+      "bom-ref": "BomRef.1397987680741064.5718782331049691",
+      "version": "12.2.0-14"
+    },
+    {
+      "name": "gpgv",
+      "type": "library",
+      "bom-ref": "BomRef.36938780802975235.02648933858166269",
+      "version": "2.2.40-1.1"
+    },
+    {
+      "name": "grep",
+      "type": "library",
+      "bom-ref": "BomRef.4787722842599982.23221188688627703",
+      "version": "3.8-5"
+    },
+    {
+      "name": "gzip",
+      "type": "library",
+      "bom-ref": "BomRef.9375405118864794.8515967333326652",
+      "version": "1.12-1"
+    },
+    {
+      "name": "hostname",
+      "type": "library",
+      "bom-ref": "BomRef.9053220563685914.6552367825586568",
+      "version": "3.23+nmu1"
+    },
+    {
+      "name": "init-system-helpers",
+      "type": "library",
+      "bom-ref": "BomRef.6441824338655461.7790675760568899",
+      "version": "1.65.2"
+    },
+    {
+      "name": "libacl1",
+      "type": "library",
+      "bom-ref": "BomRef.3635606456007804.3875170011174198",
+      "version": "2.3.1-3"
+    },
+    {
+      "name": "libapt-pkg6.0",
+      "type": "library",
+      "bom-ref": "BomRef.5294523693749407.39474538317874175",
+      "version": "2.6.1"
+    },
+    {
+      "name": "libattr1",
+      "type": "library",
+      "bom-ref": "BomRef.8923469313618458.7308485380074882",
+      "version": "1:2.5.1-4"
+    },
+    {
+      "name": "libaudit-common",
+      "type": "library",
+      "bom-ref": "BomRef.45689679028158725.918292843941974",
+      "version": "1:3.0.9-1"
+    },
+    {
+      "name": "libaudit1",
+      "type": "library",
+      "bom-ref": "BomRef.6871507416955076.34113886065836463",
+      "version": "1:3.0.9-1"
+    },
+    {
+      "name": "libblkid1",
+      "type": "library",
+      "bom-ref": "BomRef.6544960913029917.5728988625307289",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "libbz2-1.0",
+      "type": "library",
+      "bom-ref": "BomRef.6629736238791941.615543810236765",
+      "version": "1.0.8-5+b1"
+    },
+    {
+      "name": "libc-bin",
+      "type": "library",
+      "bom-ref": "BomRef.908734962086748.3038452646585159",
+      "version": "2.36-9+deb12u9"
+    },
+    {
+      "name": "libc6",
+      "type": "library",
+      "bom-ref": "BomRef.977580766760824.9522667587964663",
+      "version": "2.36-9+deb12u9"
+    },
+    {
+      "name": "libcap-ng0",
+      "type": "library",
+      "bom-ref": "BomRef.6721153594359104.6614527166288098",
+      "version": "0.8.3-1+b3"
+    },
+    {
+      "name": "libcap2",
+      "type": "library",
+      "bom-ref": "BomRef.42764585509319664.5087937390323316",
+      "version": "1:2.66-4"
+    },
+    {
+      "name": "libcom-err2",
+      "type": "library",
+      "bom-ref": "BomRef.2370808425085429.261942323742431",
+      "version": "1.47.0-2"
+    },
+    {
+      "name": "libcrypt1",
+      "type": "library",
+      "bom-ref": "BomRef.4595928747647252.14896868245115857",
+      "version": "1:4.4.33-2"
+    },
+    {
+      "name": "libdb5.3",
+      "type": "library",
+      "bom-ref": "BomRef.18908909580294386.3451963436285095",
+      "version": "5.3.28+dfsg2-1"
+    },
+    {
+      "name": "libdebconfclient0",
+      "type": "library",
+      "bom-ref": "BomRef.3604503672207121.960024379044411",
+      "version": "0.270"
+    },
+    {
+      "name": "libext2fs2",
+      "type": "library",
+      "bom-ref": "BomRef.3867408878786087.4235115079332141",
+      "version": "1.47.0-2"
+    },
+    {
+      "name": "libffi8",
+      "type": "library",
+      "bom-ref": "BomRef.6895224129900086.04452331739240423",
+      "version": "3.4.4-1"
+    },
+    {
+      "name": "libgcc-s1",
+      "type": "library",
+      "bom-ref": "BomRef.9968587983835329.07388203797910775",
+      "version": "12.2.0-14"
+    },
+    {
+      "name": "libgcrypt20",
+      "type": "library",
+      "bom-ref": "BomRef.6419654872970415.959148392477759",
+      "version": "1.10.1-3"
+    },
+    {
+      "name": "libgdbm6",
+      "type": "library",
+      "bom-ref": "BomRef.7039607065391377.49133651982130255",
+      "version": "1.23-3"
+    },
+    {
+      "name": "libgmp10",
+      "type": "library",
+      "bom-ref": "BomRef.16427145761894946.7497784026666956",
+      "version": "2:6.2.1+dfsg1-1.1"
+    },
+    {
+      "name": "libgnutls30",
+      "type": "library",
+      "bom-ref": "BomRef.5237133408161776.5001585368905718",
+      "version": "3.7.9-2+deb12u3"
+    },
+    {
+      "name": "libgpg-error0",
+      "type": "library",
+      "bom-ref": "BomRef.813972737361858.6561650654777285",
+      "version": "1.46-1"
+    },
+    {
+      "name": "libhogweed6",
+      "type": "library",
+      "bom-ref": "BomRef.5144390091464567.7427738459603734",
+      "version": "3.8.1-2"
+    },
+    {
+      "name": "libidn2-0",
+      "type": "library",
+      "bom-ref": "BomRef.03918741781330237.9144655500556016",
+      "version": "2.3.3-1+b1"
+    },
+    {
+      "name": "liblz4-1",
+      "type": "library",
+      "bom-ref": "BomRef.3622088132082272.6080620993531051",
+      "version": "1.9.4-1"
+    },
+    {
+      "name": "liblzma5",
+      "type": "library",
+      "bom-ref": "BomRef.5579373486807919.28348380176048993",
+      "version": "5.4.1-0.2"
+    },
+    {
+      "name": "libmd0",
+      "type": "library",
+      "bom-ref": "BomRef.6568135142343545.2261799276650971",
+      "version": "1.0.4-2"
+    },
+    {
+      "name": "libmount1",
+      "type": "library",
+      "bom-ref": "BomRef.7508350667378095.5400322001238628",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "libncursesw6",
+      "type": "library",
+      "bom-ref": "BomRef.2055465863764625.29139275017260813",
+      "version": "6.4-4"
+    },
+    {
+      "name": "libnettle8",
+      "type": "library",
+      "bom-ref": "BomRef.7308900271394252.10619410720421685",
+      "version": "3.8.1-2"
+    },
+    {
+      "name": "libp11-kit0",
+      "type": "library",
+      "bom-ref": "BomRef.9852281605064829.3128678017066371",
+      "version": "0.24.1-2"
+    },
+    {
+      "name": "libpam-modules",
+      "type": "library",
+      "bom-ref": "BomRef.14295109230597358.35880916086075143",
+      "version": "1.5.2-6+deb12u1"
+    },
+    {
+      "name": "libpam-modules-bin",
+      "type": "library",
+      "bom-ref": "BomRef.7297097943619183.5503085544766233",
+      "version": "1.5.2-6+deb12u1"
+    },
+    {
+      "name": "libpam-runtime",
+      "type": "library",
+      "bom-ref": "BomRef.2083125068019731.19218127579740862",
+      "version": "1.5.2-6+deb12u1"
+    },
+    {
+      "name": "libpam0g",
+      "type": "library",
+      "bom-ref": "BomRef.8891876083501613.5292082032415004",
+      "version": "1.5.2-6+deb12u1"
+    },
+    {
+      "name": "libpcre2-8-0",
+      "type": "library",
+      "bom-ref": "BomRef.5802843809204296.047735228240931904",
+      "version": "10.42-1"
+    },
+    {
+      "name": "libreadline8",
+      "type": "library",
+      "bom-ref": "BomRef.3166500092157113.17171655910887362",
+      "version": "8.2-1.3"
+    },
+    {
+      "name": "libseccomp2",
+      "type": "library",
+      "bom-ref": "BomRef.13598398493867403.8802502376200746",
+      "version": "2.5.4-1+deb12u1"
+    },
+    {
+      "name": "libselinux1",
+      "type": "library",
+      "bom-ref": "BomRef.4943253921306896.6510565728868838",
+      "version": "3.4-1+b6"
+    },
+    {
+      "name": "libsemanage-common",
+      "type": "library",
+      "bom-ref": "BomRef.4252170174125913.7843368741076132",
+      "version": "3.4-1"
+    },
+    {
+      "name": "libsemanage2",
+      "type": "library",
+      "bom-ref": "BomRef.5183037394497715.34191262638227504",
+      "version": "3.4-1+b5"
+    },
+    {
+      "name": "libsepol2",
+      "type": "library",
+      "bom-ref": "BomRef.40043672116962814.7037465788083839",
+      "version": "3.4-2.1"
+    },
+    {
+      "name": "libsmartcols1",
+      "type": "library",
+      "bom-ref": "BomRef.24830519601645462.06929817230475199",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "libsqlite3-0",
+      "type": "library",
+      "bom-ref": "BomRef.14651959737789344.5388285477203816",
+      "version": "3.40.1-2+deb12u1"
+    },
+    {
+      "name": "libss2",
+      "type": "library",
+      "bom-ref": "BomRef.507244102598076.4118737052443796",
+      "version": "1.47.0-2"
+    },
+    {
+      "name": "libssl3",
+      "type": "library",
+      "bom-ref": "BomRef.36307147537474305.905790576699866",
+      "version": "3.0.15-1~deb12u1"
+    },
+    {
+      "name": "libstdc++6",
+      "type": "library",
+      "bom-ref": "BomRef.21202466929463293.5793677151356187",
+      "version": "12.2.0-14"
+    },
+    {
+      "name": "libsystemd0",
+      "type": "library",
+      "bom-ref": "BomRef.1591262825956853.01641195964711728",
+      "version": "252.31-1~deb12u1"
+    },
+    {
+      "name": "libtasn1-6",
+      "type": "library",
+      "bom-ref": "BomRef.5506502637386193.7779992518932323",
+      "version": "4.19.0-2"
+    },
+    {
+      "name": "libtinfo6",
+      "type": "library",
+      "bom-ref": "BomRef.81077502928253.25898290165028814",
+      "version": "6.4-4"
+    },
+    {
+      "name": "libudev1",
+      "type": "library",
+      "bom-ref": "BomRef.6957476208597665.2861329723627326",
+      "version": "252.31-1~deb12u1"
+    },
+    {
+      "name": "libunistring2",
+      "type": "library",
+      "bom-ref": "BomRef.9044814269816609.5935251951063356",
+      "version": "1.0-2"
+    },
+    {
+      "name": "libuuid1",
+      "type": "library",
+      "bom-ref": "BomRef.8405712872647988.11235312156402322",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "libxxhash0",
+      "type": "library",
+      "bom-ref": "BomRef.0762496947843404.5466504429018603",
+      "version": "0.8.1-1"
+    },
+    {
+      "name": "libzstd1",
+      "type": "library",
+      "bom-ref": "BomRef.6500691330090779.5441867358354989",
+      "version": "1.5.4+dfsg2-5"
+    },
+    {
+      "name": "login",
+      "type": "library",
+      "bom-ref": "BomRef.812465793158887.08795375703397257",
+      "version": "1:4.13+dfsg1-1+b1"
+    },
+    {
+      "name": "logsave",
+      "type": "library",
+      "bom-ref": "BomRef.17834169305030256.85021366141358",
+      "version": "1.47.0-2"
+    },
+    {
+      "name": "mawk",
+      "type": "library",
+      "bom-ref": "BomRef.757751703399558.3348302269072636",
+      "version": "1.3.4.20200120-3.1"
+    },
+    {
+      "name": "mount",
+      "type": "library",
+      "bom-ref": "BomRef.6189474797534982.8858493787695283",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "ncurses-base",
+      "type": "library",
+      "bom-ref": "BomRef.933488824917066.7968643943708873",
+      "version": "6.4-4"
+    },
+    {
+      "name": "ncurses-bin",
+      "type": "library",
+      "bom-ref": "BomRef.9466845884912585.14919164731389423",
+      "version": "6.4-4"
+    },
+    {
+      "name": "netbase",
+      "type": "library",
+      "bom-ref": "BomRef.42213195019888095.9635006772320172",
+      "version": "6.4"
+    },
+    {
+      "name": "openssl",
+      "type": "library",
+      "bom-ref": "BomRef.41188591046351986.23040288428901645",
+      "version": "3.0.15-1~deb12u1"
+    },
+    {
+      "name": "passwd",
+      "type": "library",
+      "bom-ref": "BomRef.5654585006267356.3195361556527072",
+      "version": "1:4.13+dfsg1-1+b1"
+    },
+    {
+      "name": "perl-base",
+      "type": "library",
+      "bom-ref": "BomRef.078785582064402.9842104117567918",
+      "version": "5.36.0-7+deb12u1"
+    },
+    {
+      "name": "pip",
+      "type": "library",
+      "bom-ref": "BomRef.627030267471953.9811484338771843",
+      "version": "24.3.1"
+    },
+    {
+      "name": "pkg:deb/debian/adduser@3.134?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.7062393993055918.8377760335716635",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/apt@2.6.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9146164331995151.751767859325964",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/base-files@12.4%2Bdeb12u8?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.44293944511383876.6505341748285435",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/base-passwd@3.6.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9435097653550721.57485087611312",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/bash@5.2.15-2%2Bb7?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6457587859784624.1949616234018714",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/bsdutils@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.022968787792617906.5003035044666236",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/ca-certificates@20230311?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.44885741154582015.21513797721599692",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/coreutils@9.1-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6601536221545784.6213602796086983",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/dash@0.5.12-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9476942957005795.8962610646425005",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/debconf@1.5.82?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.07187042056666337.0070838049223997945",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/debian-archive-keyring@2023.3%2Bdeb12u1?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8803179639037411.4577442242900569",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/debianutils@5.7-0.5~deb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.11813883016960713.7658369291444571",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/diffutils@3.8-4?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.5057903130200649.8534213996637747",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/dpkg@1.21.22?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.16488582953193032.05608528129554902",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/e2fsprogs@1.47.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8278160969667587.2079622352856969",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/findutils@4.9.0-4?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3704085696162607.9942836512510386",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/gcc-12-base@12.2.0-14?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.020524752066079288.6988558931222933",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/gpgv@2.2.40-1.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.7387427261144123.5203738625317923",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/grep@3.8-5?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3945859437830882.3965789326911213",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/gzip@1.12-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.41358776493374594.4300731977019656",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/hostname@3.23%2Bnmu1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.1276793757944079.6247735589835112",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/init-system-helpers@1.65.2?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8031559590455231.20802669000351648",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libacl1@2.3.1-3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6365156521258583.10476581160420195",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libapt-pkg6.0@2.6.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.26701508766696347.12067960327356486",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libattr1@2.5.1-4?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.05046581913467596.3976438135553142",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libaudit-common@3.0.9-1?arch=all&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.7723741977214647.8662750910004072",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libaudit1@3.0.9-1?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.23139260102641301.8796138965296513",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libblkid1@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.5520411245084647.5710034379820831",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.782173329642208.6276928416467729",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u9?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.30923245942834576.7340953835487145",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u9?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.013442614993175006.15908347452191007",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libcap-ng0@0.8.3-1%2Bb3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.5599092431268256.9010785118902851",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libcap2@2.66-4?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.22051140046297757.7212315632033585",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libcom-err2@1.47.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9109643871012179.7063118820807033",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libcrypt1@4.4.33-2?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.18421098155363225.9355878763088433",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8183495686562435.8819947101331924",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libdebconfclient0@0.270?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9740284036052644.3997507380088111",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libext2fs2@1.47.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3012728375159308.8346619702377673",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libffi8@3.4.4-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.2868724302494676.7768505205477098",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgcc-s1@12.2.0-14?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8291856669349155.7510496295574448",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9122932297037714.6171697084309553",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgdbm6@1.23-3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.29722613697731837.2908161784657919",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgmp10@6.2.1%2Bdfsg1-1.1?arch=amd64&distro=debian-12.8&epoch=2",
+      "type": "library",
+      "bom-ref": "BomRef.547228101020701.01546614243672817",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.0029237837452215087.060769319214581285",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libgpg-error0@1.46-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8601239678166334.2546051116561082",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.33302834459579733.5558512700039584",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libidn2-0@2.3.3-1%2Bb1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.26758035545704395.9990926344873229",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/liblz4-1@1.9.4-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.20030884759131962.14501748162740125",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/liblzma5@5.4.1-0.2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.1124263120145389.5642623409565052",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libmd0@1.0.4-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.06952559202717234.1694295300905827",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libmount1@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.7104147377852852.8405166495606641",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libncursesw6@6.4-4?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.35118418921992833.9084703717945002",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.2135104791148622.9388424207400389",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libp11-kit0@0.24.1-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8547356939769428.4297995053712125",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libpam-modules-bin@1.5.2-6%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.929127488827363.6936281895615332",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libpam-modules@1.5.2-6%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.014973461565404023.8412632452384258",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libpam-runtime@1.5.2-6%2Bdeb12u1?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6283970482297165.1397062726860916",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libpam0g@1.5.2-6%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3127277570865664.02710091060602282",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libpcre2-8-0@10.42-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3603439050856553.864663288062186",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libreadline8@8.2-1.3?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6118622780980029.6020995176345005",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libseccomp2@2.5.4-1%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.004000913376930093.8283985730392166",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libselinux1@3.4-1%2Bb6?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.14011431513446404.579400848721763",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsemanage-common@3.4-1?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3463046484720379.4411206075896401",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsemanage2@3.4-1%2Bb5?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.0941625035079694.33960469995636",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsepol2@3.4-2.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.5379326090417297.6370869712937163",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsmartcols1@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9131335218155828.4667200860338193",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsqlite3-0@3.40.1-2%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9449389307700629.8270514959312887",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libss2@1.47.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6993936646865245.9756416069061337",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libssl3@3.0.15-1~deb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6410768735503157.2991141971986103",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.2843880561006954.9218707743530506",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libsystemd0@252.31-1~deb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.890284269922624.0017103432528667861",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libtasn1-6@4.19.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8549892906177272.4311286799176942",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libtinfo6@6.4-4?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3356502801169411.9208191247255203",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libudev1@252.31-1~deb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.1525252196732111.5925472374714309",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libunistring2@1.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3097869641596961.2883693097669354",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.5766619926925575.28486376904233335",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libxxhash0@0.8.1-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9081231849589396.07358112743511935",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.9723844207304081.8385909800778137",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/login@4.13%2Bdfsg1-1%2Bb1?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.6880646618435956.8333156534133578",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/logsave@1.47.0-2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.30010382077058884.11290902002541958",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/mawk@1.3.4.20200120-3.1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6643970639505518.30368265754801804",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/mount@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.18699793730050218.7142775831060675",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/ncurses-base@6.4-4?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.3899303563354378.8254493657038066",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/ncurses-bin@6.4-4?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.29340231756146784.705201031755371",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/netbase@6.4?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.46116090475636795.8109940622375575",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/openssl@3.0.15-1~deb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.32686056100915584.9787091256718085",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/passwd@4.13%2Bdfsg1-1%2Bb1?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.38128400365808734.08859517864079747",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/perl-base@5.36.0-7%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.011970787633262203.9070248785000556",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/readline-common@8.2-1.3?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.5281634134957232.7690962853213702",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/sed@4.9-1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6781197883063418.9706093653655589",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/sysvinit-utils@3.06-4?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.0306247437688959.2732305278987036",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.8706558367159146.7654222634743357",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/tzdata@2024b-0%2Bdeb12u1?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.7883944519248176.742354636817703",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/usr-is-merged@37~deb12u1?arch=all&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.6320007160811771.9840308046786701",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/util-linux-extra@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.2319612717460271.3103459560794204",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u2?arch=amd64&distro=debian-12.8",
+      "type": "library",
+      "bom-ref": "BomRef.7015234088185792.6604975212992401",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=amd64&distro=debian-12.8&epoch=1",
+      "type": "library",
+      "bom-ref": "BomRef.7175048551496975.7021168183806689",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:oci/python@sha256%3Af41a75c9cee9391c09e0139f7b49d4b1fbb119944ec740ecce4040626dc07bed?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython",
+      "type": "library",
+      "bom-ref": "BomRef.8640823078255473.6928582736033362",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:pypi/pip@24.3.1",
+      "type": "library",
+      "bom-ref": "BomRef.4477101846837318.5583745712147345",
+      "version": "unknown"
+    },
+    {
+      "name": "readline-common",
+      "type": "library",
+      "bom-ref": "BomRef.4295556149264036.6816953495817486",
+      "version": "8.2-1.3"
+    },
+    {
+      "name": "sed",
+      "type": "library",
+      "bom-ref": "BomRef.7152166749479884.7799009163406628",
+      "version": "4.9-1"
+    },
+    {
+      "name": "sysvinit-utils",
+      "type": "library",
+      "bom-ref": "BomRef.11796609085359355.5445780959001267",
+      "version": "3.06-4"
+    },
+    {
+      "name": "tar",
+      "type": "library",
+      "bom-ref": "BomRef.49126179012641435.7104942906909272",
+      "version": "1.34+dfsg-1.2+deb12u1"
+    },
+    {
+      "name": "tzdata",
+      "type": "library",
+      "bom-ref": "BomRef.6248667075411829.8392225312032601",
+      "version": "2024b-0+deb12u1"
+    },
+    {
+      "name": "usr-is-merged",
+      "type": "library",
+      "bom-ref": "BomRef.5094796254764995.6962594018442273",
+      "version": "37~deb12u1"
+    },
+    {
+      "name": "util-linux",
+      "type": "library",
+      "bom-ref": "BomRef.493677054867123.2343237308488757",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "util-linux-extra",
+      "type": "library",
+      "bom-ref": "BomRef.9200150827328305.6139883454733798",
+      "version": "2.38.1-5+deb12u2"
+    },
+    {
+      "name": "zlib1g",
+      "type": "library",
+      "bom-ref": "BomRef.4373970833151636.5473549895889199",
+      "version": "1:1.2.13.dfsg-1"
+    }
+  ],
+  "specVersion": "1.6",
+  "dependencies": [
+    {
+      "ref": "BomRef.715744229074145.37107589895473436"
+    },
+    {
+      "ref": "BomRef.7062393993055918.8377760335716635"
+    },
+    {
+      "ref": "BomRef.9146164331995151.751767859325964"
+    },
+    {
+      "ref": "BomRef.44293944511383876.6505341748285435"
+    },
+    {
+      "ref": "BomRef.9435097653550721.57485087611312"
+    },
+    {
+      "ref": "BomRef.6457587859784624.1949616234018714"
+    },
+    {
+      "ref": "BomRef.022968787792617906.5003035044666236"
+    },
+    {
+      "ref": "BomRef.44885741154582015.21513797721599692"
+    },
+    {
+      "ref": "BomRef.6601536221545784.6213602796086983"
+    },
+    {
+      "ref": "BomRef.9476942957005795.8962610646425005"
+    },
+    {
+      "ref": "BomRef.07187042056666337.0070838049223997945"
+    },
+    {
+      "ref": "BomRef.8803179639037411.4577442242900569"
+    },
+    {
+      "ref": "BomRef.11813883016960713.7658369291444571"
+    },
+    {
+      "ref": "BomRef.5057903130200649.8534213996637747"
+    },
+    {
+      "ref": "BomRef.16488582953193032.05608528129554902"
+    },
+    {
+      "ref": "BomRef.8278160969667587.2079622352856969"
+    },
+    {
+      "ref": "BomRef.3704085696162607.9942836512510386"
+    },
+    {
+      "ref": "BomRef.020524752066079288.6988558931222933"
+    },
+    {
+      "ref": "BomRef.7387427261144123.5203738625317923"
+    },
+    {
+      "ref": "BomRef.3945859437830882.3965789326911213"
+    },
+    {
+      "ref": "BomRef.41358776493374594.4300731977019656"
+    },
+    {
+      "ref": "BomRef.1276793757944079.6247735589835112"
+    },
+    {
+      "ref": "BomRef.8031559590455231.20802669000351648"
+    },
+    {
+      "ref": "BomRef.6365156521258583.10476581160420195"
+    },
+    {
+      "ref": "BomRef.26701508766696347.12067960327356486"
+    },
+    {
+      "ref": "BomRef.05046581913467596.3976438135553142"
+    },
+    {
+      "ref": "BomRef.7723741977214647.8662750910004072"
+    },
+    {
+      "ref": "BomRef.23139260102641301.8796138965296513"
+    },
+    {
+      "ref": "BomRef.5520411245084647.5710034379820831"
+    },
+    {
+      "ref": "BomRef.782173329642208.6276928416467729"
+    },
+    {
+      "ref": "BomRef.30923245942834576.7340953835487145"
+    },
+    {
+      "ref": "BomRef.013442614993175006.15908347452191007"
+    },
+    {
+      "ref": "BomRef.5599092431268256.9010785118902851"
+    },
+    {
+      "ref": "BomRef.22051140046297757.7212315632033585"
+    },
+    {
+      "ref": "BomRef.9109643871012179.7063118820807033"
+    },
+    {
+      "ref": "BomRef.18421098155363225.9355878763088433"
+    },
+    {
+      "ref": "BomRef.8183495686562435.8819947101331924"
+    },
+    {
+      "ref": "BomRef.9740284036052644.3997507380088111"
+    },
+    {
+      "ref": "BomRef.3012728375159308.8346619702377673"
+    },
+    {
+      "ref": "BomRef.2868724302494676.7768505205477098"
+    },
+    {
+      "ref": "BomRef.8291856669349155.7510496295574448"
+    },
+    {
+      "ref": "BomRef.9122932297037714.6171697084309553"
+    },
+    {
+      "ref": "BomRef.29722613697731837.2908161784657919"
+    },
+    {
+      "ref": "BomRef.547228101020701.01546614243672817"
+    },
+    {
+      "ref": "BomRef.0029237837452215087.060769319214581285"
+    },
+    {
+      "ref": "BomRef.8601239678166334.2546051116561082"
+    },
+    {
+      "ref": "BomRef.33302834459579733.5558512700039584"
+    },
+    {
+      "ref": "BomRef.26758035545704395.9990926344873229"
+    },
+    {
+      "ref": "BomRef.20030884759131962.14501748162740125"
+    },
+    {
+      "ref": "BomRef.1124263120145389.5642623409565052"
+    },
+    {
+      "ref": "BomRef.06952559202717234.1694295300905827"
+    },
+    {
+      "ref": "BomRef.7104147377852852.8405166495606641"
+    },
+    {
+      "ref": "BomRef.35118418921992833.9084703717945002"
+    },
+    {
+      "ref": "BomRef.2135104791148622.9388424207400389"
+    },
+    {
+      "ref": "BomRef.8547356939769428.4297995053712125"
+    },
+    {
+      "ref": "BomRef.929127488827363.6936281895615332"
+    },
+    {
+      "ref": "BomRef.014973461565404023.8412632452384258"
+    },
+    {
+      "ref": "BomRef.6283970482297165.1397062726860916"
+    },
+    {
+      "ref": "BomRef.3127277570865664.02710091060602282"
+    },
+    {
+      "ref": "BomRef.3603439050856553.864663288062186"
+    },
+    {
+      "ref": "BomRef.6118622780980029.6020995176345005"
+    },
+    {
+      "ref": "BomRef.004000913376930093.8283985730392166"
+    },
+    {
+      "ref": "BomRef.14011431513446404.579400848721763"
+    },
+    {
+      "ref": "BomRef.3463046484720379.4411206075896401"
+    },
+    {
+      "ref": "BomRef.0941625035079694.33960469995636"
+    },
+    {
+      "ref": "BomRef.5379326090417297.6370869712937163"
+    },
+    {
+      "ref": "BomRef.9131335218155828.4667200860338193"
+    },
+    {
+      "ref": "BomRef.9449389307700629.8270514959312887"
+    },
+    {
+      "ref": "BomRef.6993936646865245.9756416069061337"
+    },
+    {
+      "ref": "BomRef.6410768735503157.2991141971986103"
+    },
+    {
+      "ref": "BomRef.2843880561006954.9218707743530506"
+    },
+    {
+      "ref": "BomRef.890284269922624.0017103432528667861"
+    },
+    {
+      "ref": "BomRef.8549892906177272.4311286799176942"
+    },
+    {
+      "ref": "BomRef.3356502801169411.9208191247255203"
+    },
+    {
+      "ref": "BomRef.1525252196732111.5925472374714309"
+    },
+    {
+      "ref": "BomRef.3097869641596961.2883693097669354"
+    },
+    {
+      "ref": "BomRef.5766619926925575.28486376904233335"
+    },
+    {
+      "ref": "BomRef.9081231849589396.07358112743511935"
+    },
+    {
+      "ref": "BomRef.9723844207304081.8385909800778137"
+    },
+    {
+      "ref": "BomRef.6880646618435956.8333156534133578"
+    },
+    {
+      "ref": "BomRef.30010382077058884.11290902002541958"
+    },
+    {
+      "ref": "BomRef.6643970639505518.30368265754801804"
+    },
+    {
+      "ref": "BomRef.18699793730050218.7142775831060675"
+    },
+    {
+      "ref": "BomRef.3899303563354378.8254493657038066"
+    },
+    {
+      "ref": "BomRef.29340231756146784.705201031755371"
+    },
+    {
+      "ref": "BomRef.46116090475636795.8109940622375575"
+    },
+    {
+      "ref": "BomRef.32686056100915584.9787091256718085"
+    },
+    {
+      "ref": "BomRef.38128400365808734.08859517864079747"
+    },
+    {
+      "ref": "BomRef.011970787633262203.9070248785000556"
+    },
+    {
+      "ref": "BomRef.5281634134957232.7690962853213702"
+    },
+    {
+      "ref": "BomRef.6781197883063418.9706093653655589"
+    },
+    {
+      "ref": "BomRef.0306247437688959.2732305278987036"
+    },
+    {
+      "ref": "BomRef.8706558367159146.7654222634743357"
+    },
+    {
+      "ref": "BomRef.7883944519248176.742354636817703"
+    },
+    {
+      "ref": "BomRef.6320007160811771.9840308046786701"
+    },
+    {
+      "ref": "BomRef.2319612717460271.3103459560794204"
+    },
+    {
+      "ref": "BomRef.7015234088185792.6604975212992401"
+    },
+    {
+      "ref": "BomRef.7175048551496975.7021168183806689"
+    },
+    {
+      "ref": "BomRef.8640823078255473.6928582736033362"
+    },
+    {
+      "ref": "BomRef.4477101846837318.5583745712147345"
+    },
+    {
+      "ref": "BomRef.4282568904542824.8317119033134258"
+    },
+    {
+      "ref": "BomRef.28865329029004394.5893159289139973"
+    },
+    {
+      "ref": "BomRef.00929546732273423.47067917294422723"
+    },
+    {
+      "ref": "BomRef.03348382126786409.9912791416342875"
+    },
+    {
+      "ref": "BomRef.892768513126765.7967673721135938"
+    },
+    {
+      "ref": "BomRef.2005468020465031.7367529303291531"
+    },
+    {
+      "ref": "BomRef.5238204111956344.8594181125851695"
+    },
+    {
+      "ref": "BomRef.4887258036841672.15787530973793895"
+    },
+    {
+      "ref": "BomRef.5609914282001899.7988182545060057"
+    },
+    {
+      "ref": "BomRef.028994245660979745.7437329157670484"
+    },
+    {
+      "ref": "BomRef.5043988800760324.054715112016471834"
+    },
+    {
+      "ref": "BomRef.04021578228696321.4981307789283477"
+    },
+    {
+      "ref": "BomRef.5592413176033004.05854638705800996"
+    },
+    {
+      "ref": "BomRef.5822222196739071.5802816471596205"
+    },
+    {
+      "ref": "BomRef.3087890454518959.1606103329910321"
+    },
+    {
+      "ref": "BomRef.019860963676747723.6138039461511284"
+    },
+    {
+      "ref": "BomRef.6743344935214602.9241122009132855"
+    },
+    {
+      "ref": "BomRef.1397987680741064.5718782331049691"
+    },
+    {
+      "ref": "BomRef.36938780802975235.02648933858166269"
+    },
+    {
+      "ref": "BomRef.4787722842599982.23221188688627703"
+    },
+    {
+      "ref": "BomRef.9375405118864794.8515967333326652"
+    },
+    {
+      "ref": "BomRef.9053220563685914.6552367825586568"
+    },
+    {
+      "ref": "BomRef.6441824338655461.7790675760568899"
+    },
+    {
+      "ref": "BomRef.3635606456007804.3875170011174198"
+    },
+    {
+      "ref": "BomRef.5294523693749407.39474538317874175"
+    },
+    {
+      "ref": "BomRef.8923469313618458.7308485380074882"
+    },
+    {
+      "ref": "BomRef.45689679028158725.918292843941974"
+    },
+    {
+      "ref": "BomRef.6871507416955076.34113886065836463"
+    },
+    {
+      "ref": "BomRef.6544960913029917.5728988625307289"
+    },
+    {
+      "ref": "BomRef.6629736238791941.615543810236765"
+    },
+    {
+      "ref": "BomRef.908734962086748.3038452646585159"
+    },
+    {
+      "ref": "BomRef.977580766760824.9522667587964663"
+    },
+    {
+      "ref": "BomRef.6721153594359104.6614527166288098"
+    },
+    {
+      "ref": "BomRef.42764585509319664.5087937390323316"
+    },
+    {
+      "ref": "BomRef.2370808425085429.261942323742431"
+    },
+    {
+      "ref": "BomRef.4595928747647252.14896868245115857"
+    },
+    {
+      "ref": "BomRef.18908909580294386.3451963436285095"
+    },
+    {
+      "ref": "BomRef.3604503672207121.960024379044411"
+    },
+    {
+      "ref": "BomRef.3867408878786087.4235115079332141"
+    },
+    {
+      "ref": "BomRef.6895224129900086.04452331739240423"
+    },
+    {
+      "ref": "BomRef.9968587983835329.07388203797910775"
+    },
+    {
+      "ref": "BomRef.6419654872970415.959148392477759"
+    },
+    {
+      "ref": "BomRef.7039607065391377.49133651982130255"
+    },
+    {
+      "ref": "BomRef.16427145761894946.7497784026666956"
+    },
+    {
+      "ref": "BomRef.5237133408161776.5001585368905718"
+    },
+    {
+      "ref": "BomRef.813972737361858.6561650654777285"
+    },
+    {
+      "ref": "BomRef.5144390091464567.7427738459603734"
+    },
+    {
+      "ref": "BomRef.03918741781330237.9144655500556016"
+    },
+    {
+      "ref": "BomRef.3622088132082272.6080620993531051"
+    },
+    {
+      "ref": "BomRef.5579373486807919.28348380176048993"
+    },
+    {
+      "ref": "BomRef.6568135142343545.2261799276650971"
+    },
+    {
+      "ref": "BomRef.7508350667378095.5400322001238628"
+    },
+    {
+      "ref": "BomRef.2055465863764625.29139275017260813"
+    },
+    {
+      "ref": "BomRef.7308900271394252.10619410720421685"
+    },
+    {
+      "ref": "BomRef.9852281605064829.3128678017066371"
+    },
+    {
+      "ref": "BomRef.14295109230597358.35880916086075143"
+    },
+    {
+      "ref": "BomRef.7297097943619183.5503085544766233"
+    },
+    {
+      "ref": "BomRef.2083125068019731.19218127579740862"
+    },
+    {
+      "ref": "BomRef.8891876083501613.5292082032415004"
+    },
+    {
+      "ref": "BomRef.5802843809204296.047735228240931904"
+    },
+    {
+      "ref": "BomRef.3166500092157113.17171655910887362"
+    },
+    {
+      "ref": "BomRef.13598398493867403.8802502376200746"
+    },
+    {
+      "ref": "BomRef.4943253921306896.6510565728868838"
+    },
+    {
+      "ref": "BomRef.4252170174125913.7843368741076132"
+    },
+    {
+      "ref": "BomRef.5183037394497715.34191262638227504"
+    },
+    {
+      "ref": "BomRef.40043672116962814.7037465788083839"
+    },
+    {
+      "ref": "BomRef.24830519601645462.06929817230475199"
+    },
+    {
+      "ref": "BomRef.14651959737789344.5388285477203816"
+    },
+    {
+      "ref": "BomRef.507244102598076.4118737052443796"
+    },
+    {
+      "ref": "BomRef.36307147537474305.905790576699866"
+    },
+    {
+      "ref": "BomRef.21202466929463293.5793677151356187"
+    },
+    {
+      "ref": "BomRef.1591262825956853.01641195964711728"
+    },
+    {
+      "ref": "BomRef.5506502637386193.7779992518932323"
+    },
+    {
+      "ref": "BomRef.81077502928253.25898290165028814"
+    },
+    {
+      "ref": "BomRef.6957476208597665.2861329723627326"
+    },
+    {
+      "ref": "BomRef.9044814269816609.5935251951063356"
+    },
+    {
+      "ref": "BomRef.8405712872647988.11235312156402322"
+    },
+    {
+      "ref": "BomRef.0762496947843404.5466504429018603"
+    },
+    {
+      "ref": "BomRef.6500691330090779.5441867358354989"
+    },
+    {
+      "ref": "BomRef.812465793158887.08795375703397257"
+    },
+    {
+      "ref": "BomRef.17834169305030256.85021366141358"
+    },
+    {
+      "ref": "BomRef.757751703399558.3348302269072636"
+    },
+    {
+      "ref": "BomRef.6189474797534982.8858493787695283"
+    },
+    {
+      "ref": "BomRef.933488824917066.7968643943708873"
+    },
+    {
+      "ref": "BomRef.9466845884912585.14919164731389423"
+    },
+    {
+      "ref": "BomRef.42213195019888095.9635006772320172"
+    },
+    {
+      "ref": "BomRef.41188591046351986.23040288428901645"
+    },
+    {
+      "ref": "BomRef.5654585006267356.3195361556527072"
+    },
+    {
+      "ref": "BomRef.078785582064402.9842104117567918"
+    },
+    {
+      "ref": "BomRef.627030267471953.9811484338771843"
+    },
+    {
+      "ref": "BomRef.4295556149264036.6816953495817486"
+    },
+    {
+      "ref": "BomRef.7152166749479884.7799009163406628"
+    },
+    {
+      "ref": "BomRef.11796609085359355.5445780959001267"
+    },
+    {
+      "ref": "BomRef.49126179012641435.7104942906909272"
+    },
+    {
+      "ref": "BomRef.6248667075411829.8392225312032601"
+    },
+    {
+      "ref": "BomRef.5094796254764995.6962594018442273"
+    },
+    {
+      "ref": "BomRef.493677054867123.2343237308488757"
+    },
+    {
+      "ref": "BomRef.9200150827328305.6139883454733798"
+    },
+    {
+      "ref": "BomRef.4373970833151636.5473549895889199"
+    },
+    {
+      "ref": "pkg:oci/python@slim?digest=sha256:f41a75c9cee9391c09e0139f7b49d4b1fbb119944ec740ecce4040626dc07bed",
+      "dependsOn": [
+        "BomRef.26758035545704395.9990926344873229",
+        "BomRef.4477101846837318.5583745712147345",
+        "BomRef.22051140046297757.7212315632033585",
+        "BomRef.18699793730050218.7142775831060675",
+        "BomRef.07187042056666337.0070838049223997945",
+        "BomRef.9081231849589396.07358112743511935",
+        "BomRef.3603439050856553.864663288062186",
+        "BomRef.3945859437830882.3965789326911213",
+        "BomRef.3012728375159308.8346619702377673",
+        "BomRef.8278160969667587.2079622352856969",
+        "BomRef.20030884759131962.14501748162740125",
+        "BomRef.6993936646865245.9756416069061337",
+        "BomRef.8031559590455231.20802669000351648",
+        "BomRef.06952559202717234.1694295300905827",
+        "BomRef.6320007160811771.9840308046786701",
+        "BomRef.3127277570865664.02710091060602282",
+        "BomRef.6283970482297165.1397062726860916",
+        "BomRef.23139260102641301.8796138965296513",
+        "BomRef.29340231756146784.705201031755371",
+        "BomRef.022968787792617906.5003035044666236",
+        "BomRef.8291856669349155.7510496295574448",
+        "BomRef.9449389307700629.8270514959312887",
+        "BomRef.1525252196732111.5925472374714309",
+        "BomRef.46116090475636795.8109940622375575",
+        "BomRef.35118418921992833.9084703717945002",
+        "BomRef.9109643871012179.7063118820807033",
+        "BomRef.11813883016960713.7658369291444571",
+        "BomRef.6410768735503157.2991141971986103",
+        "BomRef.8706558367159146.7654222634743357",
+        "BomRef.9740284036052644.3997507380088111",
+        "BomRef.2135104791148622.9388424207400389",
+        "BomRef.929127488827363.6936281895615332",
+        "BomRef.1276793757944079.6247735589835112",
+        "BomRef.3704085696162607.9942836512510386",
+        "BomRef.7015234088185792.6604975212992401",
+        "BomRef.020524752066079288.6988558931222933",
+        "BomRef.8183495686562435.8819947101331924",
+        "BomRef.9723844207304081.8385909800778137",
+        "BomRef.8549892906177272.4311286799176942",
+        "BomRef.3356502801169411.9208191247255203",
+        "BomRef.7723741977214647.8662750910004072",
+        "BomRef.782173329642208.6276928416467729",
+        "BomRef.29722613697731837.2908161784657919",
+        "BomRef.8547356939769428.4297995053712125",
+        "BomRef.30923245942834576.7340953835487145",
+        "BomRef.16488582953193032.05608528129554902",
+        "BomRef.5766619926925575.28486376904233335",
+        "BomRef.7175048551496975.7021168183806689",
+        "BomRef.1124263120145389.5642623409565052",
+        "BomRef.0029237837452215087.060769319214581285",
+        "BomRef.9122932297037714.6171697084309553",
+        "BomRef.18421098155363225.9355878763088433",
+        "BomRef.9146164331995151.751767859325964",
+        "BomRef.8640823078255473.6928582736033362",
+        "BomRef.44885741154582015.21513797721599692",
+        "BomRef.5057903130200649.8534213996637747",
+        "BomRef.014973461565404023.8412632452384258",
+        "BomRef.547228101020701.01546614243672817",
+        "BomRef.30010382077058884.11290902002541958",
+        "BomRef.7883944519248176.742354636817703",
+        "BomRef.6457587859784624.1949616234018714",
+        "BomRef.5379326090417297.6370869712937163",
+        "BomRef.05046581913467596.3976438135553142",
+        "BomRef.2868724302494676.7768505205477098",
+        "BomRef.26701508766696347.12067960327356486",
+        "BomRef.5281634134957232.7690962853213702",
+        "BomRef.44293944511383876.6505341748285435",
+        "BomRef.38128400365808734.08859517864079747",
+        "BomRef.7062393993055918.8377760335716635",
+        "BomRef.0306247437688959.2732305278987036",
+        "BomRef.2319612717460271.3103459560794204",
+        "BomRef.004000913376930093.8283985730392166",
+        "BomRef.011970787633262203.9070248785000556",
+        "BomRef.0941625035079694.33960469995636",
+        "BomRef.2843880561006954.9218707743530506",
+        "BomRef.3899303563354378.8254493657038066",
+        "BomRef.890284269922624.0017103432528667861",
+        "BomRef.3097869641596961.2883693097669354",
+        "BomRef.8803179639037411.4577442242900569",
+        "BomRef.7387427261144123.5203738625317923",
+        "BomRef.3463046484720379.4411206075896401",
+        "BomRef.33302834459579733.5558512700039584",
+        "BomRef.14011431513446404.579400848721763",
+        "BomRef.715744229074145.37107589895473436",
+        "BomRef.9476942957005795.8962610646425005",
+        "BomRef.5520411245084647.5710034379820831",
+        "BomRef.41358776493374594.4300731977019656",
+        "BomRef.7104147377852852.8405166495606641",
+        "BomRef.6118622780980029.6020995176345005",
+        "BomRef.8601239678166334.2546051116561082",
+        "BomRef.32686056100915584.9787091256718085",
+        "BomRef.6601536221545784.6213602796086983",
+        "BomRef.6880646618435956.8333156534133578",
+        "BomRef.5599092431268256.9010785118902851",
+        "BomRef.9435097653550721.57485087611312",
+        "BomRef.6781197883063418.9706093653655589",
+        "BomRef.013442614993175006.15908347452191007",
+        "BomRef.6365156521258583.10476581160420195",
+        "BomRef.9131335218155828.4667200860338193",
+        "BomRef.6643970639505518.30368265754801804"
+      ]
+    }
+  ],
+  "serialNumber": "urn:uuid:527a0a79-e09d-413b-ab87-f2891b8530bf"
+}
