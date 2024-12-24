@@ -1,5 +1,5 @@
 # Stage 1: Base Image
-FROM python:latest@sha256:e3d5b6f95ce66923b5e48a06ee5755abb097de96a8617c3f2f7d431d48e63d35 AS base
+FROM python:latest@sha256:9255d1993f6d28b8a1cd611b108adbdfa38cb7ccc46ddde8ea7d734b6c845e32 AS base
 
 # Set working directory
 WORKDIR /app
@@ -22,7 +22,7 @@ FROM base AS builder
 # RUN python setup.py build_ext --inplace
 
 # Stage 3: Final Stage
-FROM python:slim@sha256:59c7332a4a24373861c4a5f0eec2c92b87e3efeb8ddef011744ef9a751b1d11c AS final
+FROM python:slim@sha256:f41a75c9cee9391c09e0139f7b49d4b1fbb119944ec740ecce4040626dc07bed AS final
 
 # Set working directory
 WORKDIR /app
